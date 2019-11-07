@@ -527,6 +527,8 @@ class Player extends Human implements CommandSender, ChunkLoader, IPlayer{
 	public function spawnTo(Player $player) : void{
 		if($this->spawned and $player->spawned and $this->isAlive() and $player->isAlive() and $player->getLevel() === $this->level and $player->canSee($this) and !$this->isSpectator()){
 			parent::spawnTo($player);
+
+			$this->sendSkin([$player]);
 		}
 	}
 
@@ -1601,9 +1603,9 @@ class Player extends Human implements CommandSender, ChunkLoader, IPlayer{
 		if($count > 1){
 			if(($total = array_sum($this->moveCountHistory->toArray()) / $this->moveCountHistorySize * 20) > $this->maxMovesPerSecond){
 				$revert = true;
-				$this->server->getLogger()->warning($this->getName() . " is sending movements too fast ($total moves/sec)");
+				//$this->server->getLogger()->warning($this->getName() . " is sending movements too fast ($total moves/sec)");
 			}else{
-				$this->server->getLogger()->debug("$count received ($total moves/sec)");
+				//$this->server->getLogger()->debug("$count received ($total moves/sec)");
 			}
 		}
 
