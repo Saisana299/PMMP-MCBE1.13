@@ -1,10 +1,10 @@
 # PMMP-MCBE1.13
-[![GitHub license](https://img.shields.io/badge/pre_release-3.10.0+dev.-red)](https://github.com/Saisana299/PMMP-MCBE1.13/releases/tag/3.10.0%2Bdev6) ←ダウンロードリンク  
+[![GitHub license](https://img.shields.io/badge/pre_release-3.10.0+dev.-red)](https://github.com/Saisana299/PMMP-MCBE1.13/releases/tag/3.10.0%2Bdev7) ←ダウンロードリンク  
 Minecraft Bedrock Edition 1.13.x に対応した PocketMine-MP の配布場所です。   
 ※ソースコード開示予定です  
 
 ## phar最終更新日時
-2019/11/10 PM10:00 (JST)
+2019/11/11 PM11:00 (JST)
 
 ## 注意
 配布しているPocketMine-MPは開発段階のものです。
