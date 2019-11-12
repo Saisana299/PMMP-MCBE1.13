@@ -1,7 +1,6 @@
 # PMMP-MCBE1.13
 [![GitHub license](https://img.shields.io/badge/pre_release-3.10.0+dev.-red)](https://github.com/Saisana299/PMMP-MCBE1.13/releases/tag/3.10.0%2Bdev7) ←ダウンロードリンク  
 Minecraft Bedrock Edition 1.13.x に対応した PocketMine-MP の配布場所です。   
-※ソースコード開示予定です  
 
 ## phar最終更新日時
 2019/11/11 PM11:00 (JST)
@@ -14,9 +13,11 @@ Minecraft Bedrock Edition 1.13.x に対応した PocketMine-MP の配布場所�
 ## バグ一覧
 - [x] ブロックのメタ値の変更により向きがおかしくなるブロックがある
 - [ ] 満腹なのに食べ物が食べられる
-- [ ] 他の人のスキンが自分と同じスキンになる
 - [ ] 矢のパーティクルの位置がおかしい
 - [ ] スペクテイターで食べ物が食べられる
+- [x] 死亡時に時々復活できないときがある
+- [x] インベントリ関係の不具合
+
 
 ※現在バグ調査中です。  
 確認済みのバグには☑を付けています
